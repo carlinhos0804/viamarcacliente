@@ -15,7 +15,7 @@ export default function CEOSection() {
             </h2>
 
             <p className="text-gray-300 font-inter leading-relaxed mb-6">
-              <span className="text-gold font-semibold">David Pinheiro</span>, fundador e CEO da Via Marca,
+              <span className="text-gold font-semibold">David</span>, fundador e CEO da Via Marca,
               revolucionou o mercado de produtos personalizados em Belo Horizonte. Com uma visão inovadora
               e compromisso com a excelência, ele criou uma empresa que transforma negócios em marcas de prestígio.
             </p>
