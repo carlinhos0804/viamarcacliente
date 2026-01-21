@@ -1,25 +1,18 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import ProductCarousel from './components/ProductCarousel';
-import Features from './components/Features';
-import CEOSection from './components/CEOSection';
-import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
+// As 5 imagens que você subiu na pasta public/produtos
+const referenceImages = [
+  { id: 1, title: "Linha de Pomadas", url: "/produtos/ref-pomada.jpg" },
+  { id: 2, title: "Shampoos & Barba", url: "/produtos/ref-shampoo.jpg" },
+  { id: 3, title: "Óleos e Crescimento", url: "/produtos/ref-oleo.jpg" },
+  { id: 4, title: "Géis de Finalização", url: "/produtos/ref-gel.jpg" },
+  { id: 5, title: "Cremes e Leave-in", url: "/produtos/ref-leavein.jpg" },
+];
 
-function App() {
-  return (
-    <div className="min-h-screen bg-black">
-      <Header />
-      <main>
-        <Hero />
-        <ProductCarousel />
-        <Features />
-        <CEOSection />
-      </main>
-      <Footer />
-      <WhatsAppButton />
-    </div>
-  );
-}
-
-export default App;
+// O catálogo completo em texto
+const productList = [
+  "Pomadas (100g/150g): Teia, Brilho, Matte, Dry, Black",
+  "Shampoos e Condicionadores (200ml)",
+  "Shampoo para Barba (200ml)",
+  "Óleo para Barba (30ml) e Forthair (60ml)",
+  "Géis (300g): Transparente e Black",
+  "Leave-in (200ml)"
+];
